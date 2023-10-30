@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Mobile Shop Website</title>
+<link rel="icon" href="images/mobilelogo.png">
+<link rel="stylesheet" href="index.css"> 
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+section{
+width:100%;
+text-align:center;
+}
+section .article2{
+	padding-top:50px;
+	width:100%;
+	height:600px;
+	border:1px solid black;
+}
+.input{
+	padding:10px;
+	margin:10px;
+}
+span{
+	color:red;
+}
+</style>
+</head>
+<body>
+<header>
+<ol>
+<li><img src="images/logo.png"></img></li>
+<li><form>
+<input type="search" placeholder="Search For Products,Brand..." class="search">
+<button class="button"><i class="fa fa-search"></i></button>
+</form></li>
+<li><a href="#"><i class="fa fa-shopping-cart" class="shopping"></i></a></li>
+<li><a href="#"><i class="fa fa-user"></i></a>
+</li>
+</header>
+<section>
+<article class="article2">
+<h2>ORDER FORM</h2>
+<form action="index.html" onsubmit="return valid()">
+<input type="text" class="input" id="name" placeholder="Enter Your Name">
+<span id="er1"></span>
+</br>
+<input type="email"class="input" id="mail" placeholder="Enter Your Email">
+<span id="er2"></span>
+</br>
+<input type="number"class="input"id="number" placeholder="Enter Your Mobile Number">
+<span id="er3"></span>
+</br>
+<textarea cols="20" rows="10" id="location" placeholder="Location" class="input"></textarea>
+<span id="er4"></span>
+</br>
+<img src="images/payment.jpg" width="160px" height="70px" ></br>
+<input type="Submit" value="submit"class="input">
+</form>
+</article>
+</section>
+<footer id="footer">
+<div class="container">
+	<div class="social">
+		<a href="#"><i class="fa fa-whatsapp"></i></a>
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-instagram"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-skype"></i></a>
+	</div>
+</div>
+<div>
+<div id="navigate">
+	<ol>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About us</a></li>
+		<li><a href="#">Our Team</a></li>
+		<li><a href="#">News</a></li>
+		<li><a href="#">Contact</a></li>
+	</ol>
+</div></div>
+
+	<h3>Copyrights &copy; 2023</h3>
+
+</footer>
+</body>
+<script src="orderform.js">
+</script>
+</html>
